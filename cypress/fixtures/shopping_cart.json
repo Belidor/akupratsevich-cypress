@@ -3,5 +3,5 @@
   "password": "secret_sauce",
   "firstName": "John",
   "lastName": "Doe",
-  "zip": "12345"
+  "postalCode": "12345"
 }

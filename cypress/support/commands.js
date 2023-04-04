@@ -13,7 +13,7 @@ Cypress.Commands.add('addProductToCart', (productName) => {
 });
 
 Cypress.Commands.add('verifyNumberOfProductsAddedToCart', (number) => {
-    cy.get('.shopping_cart_badge').should('have.text', number.toString);
+    cy.get('.shopping_cart_badge').should('have.text', number);
 });
 
 Cypress.Commands.add('verifyPageTitle', (title) => {
